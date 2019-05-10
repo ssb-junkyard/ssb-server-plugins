@@ -1,0 +1,33 @@
+{
+  "name": "ssb-server-plugins",
+  "version": "1.0.0",
+  "description": "secret-stack plugin to manage SSB plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/ssb-server-plugins.git"
+  },
+  "author": "SSBC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-server-plugins/issues"
+  },
+  "homepage": "https://github.com/ssbc/ssb-server-plugins#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "explain-error": "^1.0.4",
+    "mdmanifest": "^1.0.8",
+    "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
+    "osenv": "^0.1.5",
+    "pull-cat": "^1.1.11",
+    "pull-many": "^1.0.8",
+    "pull-pushable": "^2.2.0",
+    "pull-stream": "^3.6.11",
+    "rimraf": "^2.6.3",
+    "stream-to-pull-stream": "^1.7.3"
+  }
+}
